@@ -7,4 +7,6 @@
     </a>
 </p>
 
+> https://bcofoods.github.io/snake-eating/
+
 <img src="./view.png" />
