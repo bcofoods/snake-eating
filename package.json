@@ -1,0 +1,46 @@
+{
+  "name": "snake-eating",
+  "version": "0.1.0",
+  "description": "贪吃蛇",
+  "scripts": {
+    "dev": "webpack server --config ./config/webpack.dev.js",
+    "build": "webpack --config ./config/webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcofoods/snake-eating.git"
+  },
+  "keywords": [
+    "project",
+    "webpack",
+    "zipaper"
+  ],
+  "author": {
+    "name": "bcofoods",
+    "url": "https://github.com/bcofoods"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcofoods/snake-eating/issues"
+  },
+  "homepage": "https://github.com/bcofoods/snake-eating",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.5.0",
+    "oipage": "^1.2.1",
+    "sass": "^1.86.0",
+    "sass-loader": "^16.0.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "xhtml-to-json": "^0.1.0"
+  },
+  "dependencies": {
+    "vislite": "^1.8.0",
+    "zipaper": "^0.2.1"
+  }
+}

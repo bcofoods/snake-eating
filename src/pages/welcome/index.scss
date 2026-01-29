@@ -1,0 +1,56 @@
+.welcome-view {
+    position: relative;
+
+    &>div {
+        height: 500px;
+        width: 500px;
+
+        canvas {
+            background-color: #0f1720;
+            border-radius: 8px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.02);
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    &>div {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 500px;
+        height: 500px;
+        background: linear-gradient(180deg, rgba(0,0,0,0.28), rgba(0,0,0,0.5));
+
+        &[active='no'] {
+            display: none;
+        }
+
+        &>span {
+            display: inline-block;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            font-weight: 300;
+            color: #e6eef8;
+            font-size: 13px;
+            text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+        }
+
+        &>button {
+            margin: auto;
+            display: block;
+            background: linear-gradient(180deg, #ff6b6b, #e84343);
+            color: white;
+            width: 110px;
+            height: 38px;
+            margin-top: 231px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 20px;
+            font-weight: 600;
+            box-shadow: 0 6px 18px rgba(232,67,67,0.32), inset 0 -2px 0 rgba(0,0,0,0.12);
+        }
+    }
+}

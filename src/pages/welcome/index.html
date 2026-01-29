@@ -1,0 +1,9 @@
+<div class="welcome-view">
+    <div id="mycanvas"></div>
+    <div z-bind:active="isRuning?'no':'yes'">
+        <span z-bind="tips"></span>
+        <button z-on:click="beginGame">
+            开始游戏
+        </button>
+    </div>
+</div>
